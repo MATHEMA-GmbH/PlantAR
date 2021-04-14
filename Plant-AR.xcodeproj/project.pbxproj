@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A0D3B2925821A7400026D88 /* SnapshotButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0D3B2825821A7400026D88 /* SnapshotButtonView.swift */; };
+		9A0D3B2D25821B0200026D88 /* InsertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0D3B2C25821B0200026D88 /* InsertView.swift */; };
+		9A0D3B33258221C500026D88 /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0D3B32258221C500026D88 /* CustomARView.swift */; };
+		9A0D3B362582229400026D88 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0D3B352582229400026D88 /* ARViewContainer.swift */; };
+		9A0D3B392582255800026D88 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0D3B382582255800026D88 /* Favorites.swift */; };
+		9A23744A26020C750057D96E /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 9A23744926020C750057D96E /* FocusEntity */; };
+		9A90569825B822EA0085A1DA /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A90569725B822EA0085A1DA /* FavoritesView.swift */; };
+		9A9056BE25CC45E00085A1DA /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9056BD25CC45E00085A1DA /* Launch Screen.storyboard */; };
+		9A93531D25B7347C0060D396 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A93531C25B7347C0060D396 /* MenuView.swift */; };
+		9A93532025B73BBB0060D396 /* PlantsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A93531F25B73BBB0060D396 /* PlantsView.swift */; };
+		9AA1C1F32611EF2B0080EE0E /* ContextMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA1C1F22611EF2B0080EE0E /* ContextMenuView.swift */; };
+		9AAB10D725765CC20076A32C /* ARViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAB10D625765CC20076A32C /* ARViewModel.swift */; };
+		9AC2BC2925652CE800402379 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC2BC2825652CE800402379 /* AppDelegate.swift */; };
+		9AC2BC2B25652CE800402379 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC2BC2A25652CE800402379 /* ContentView.swift */; };
+		9AC2BC2F25652CEA00402379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC2BC2E25652CEA00402379 /* Assets.xcassets */; };
+		9AC2BC3225652CEA00402379 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC2BC3125652CEA00402379 /* Preview Assets.xcassets */; };
+		9AC2BC40256557D300402379 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC2BC3F256557D300402379 /* Model.swift */; };
+		9AD109292611B8500045DF12 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD109282611B8500045DF12 /* MenuButton.swift */; };
+		9AD1092C2611B88F0045DF12 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD1092B2611B88F0045DF12 /* MenuBar.swift */; };
+		9AF54ABC2625AF7D001AC0BF /* Sansevieria.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9AF54ABB2625AF7D001AC0BF /* Sansevieria.usdz */; };
+		9AFFAC9126130E5B0067ED78 /* ModelLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFFAC9026130E5B0067ED78 /* ModelLoader.swift */; };
+		A015B2DA89A0D698AAAD750D /* Pods_Plant_AR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D174AFC8DDE7D5D91A213C40 /* Pods_Plant_AR.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1419CD8DA531E491D88C7CF9 /* Pods-Plant-AR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plant-AR.debug.xcconfig"; path = "Target Support Files/Pods-Plant-AR/Pods-Plant-AR.debug.xcconfig"; sourceTree = "<group>"; };
+		7B79F88C3125D1A399923E66 /* Pods-Plant-AR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plant-AR.release.xcconfig"; path = "Target Support Files/Pods-Plant-AR/Pods-Plant-AR.release.xcconfig"; sourceTree = "<group>"; };
+		9A0D3B2825821A7400026D88 /* SnapshotButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotButtonView.swift; sourceTree = "<group>"; };
+		9A0D3B2C25821B0200026D88 /* InsertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertView.swift; sourceTree = "<group>"; };
+		9A0D3B32258221C500026D88 /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
+		9A0D3B352582229400026D88 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		9A0D3B382582255800026D88 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		9A90569725B822EA0085A1DA /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		9A9056BD25CC45E00085A1DA /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		9A93531C25B7347C0060D396 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		9A93531F25B73BBB0060D396 /* PlantsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantsView.swift; sourceTree = "<group>"; };
+		9AA1C1F22611EF2B0080EE0E /* ContextMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuView.swift; sourceTree = "<group>"; };
+		9AAB10D625765CC20076A32C /* ARViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewModel.swift; sourceTree = "<group>"; };
+		9AC2BC2525652CE800402379 /* Plant-AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plant-AR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC2BC2825652CE800402379 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AC2BC2A25652CE800402379 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9AC2BC2E25652CEA00402379 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AC2BC3125652CEA00402379 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9AC2BC3325652CEA00402379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AC2BC3F256557D300402379 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		9AD109282611B8500045DF12 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		9AD1092B2611B88F0045DF12 /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
+		9AF54ABB2625AF7D001AC0BF /* Sansevieria.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Sansevieria.usdz; sourceTree = "<group>"; };
+		9AFFAC9026130E5B0067ED78 /* ModelLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelLoader.swift; sourceTree = "<group>"; };
+		D174AFC8DDE7D5D91A213C40 /* Pods_Plant_AR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plant_AR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AC2BC2225652CE800402379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A23744A26020C750057D96E /* FocusEntity in Frameworks */,
+				A015B2DA89A0D698AAAD750D /* Pods_Plant_AR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20E19458BFA6C8A617922123 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D174AFC8DDE7D5D91A213C40 /* Pods_Plant_AR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		927DD5959904219049A60E2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1419CD8DA531E491D88C7CF9 /* Pods-Plant-AR.debug.xcconfig */,
+				7B79F88C3125D1A399923E66 /* Pods-Plant-AR.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9A0D3B2B25821AC700026D88 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9AC2BC2A25652CE800402379 /* ContentView.swift */,
+				9AA1C1EF2611BBE70080EE0E /* MenuView */,
+				9A0D3B2825821A7400026D88 /* SnapshotButtonView.swift */,
+				9A0D3B352582229400026D88 /* ARViewContainer.swift */,
+				9A0D3B32258221C500026D88 /* CustomARView.swift */,
+				9A0D3B2C25821B0200026D88 /* InsertView.swift */,
+				9A93531F25B73BBB0060D396 /* PlantsView.swift */,
+				9A90569725B822EA0085A1DA /* FavoritesView.swift */,
+				9AA1C1F22611EF2B0080EE0E /* ContextMenuView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9A3AAC3725D6CE5900BF72D9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9AAB10D625765CC20076A32C /* ARViewModel.swift */,
+				9AC2BC3F256557D300402379 /* Model.swift */,
+				9AFFAC9026130E5B0067ED78 /* ModelLoader.swift */,
+				9A0D3B382582255800026D88 /* Favorites.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9AA1C1EF2611BBE70080EE0E /* MenuView */ = {
+			isa = PBXGroup;
+			children = (
+				9A93531C25B7347C0060D396 /* MenuView.swift */,
+				9AD1092B2611B88F0045DF12 /* MenuBar.swift */,
+				9AD109282611B8500045DF12 /* MenuButton.swift */,
+			);
+			path = MenuView;
+			sourceTree = "<group>";
+		};
+		9AC2BC1C25652CE800402379 = {
+			isa = PBXGroup;
+			children = (
+				9AC2BC2725652CE800402379 /* Plant-AR */,
+				9AC2BC2625652CE800402379 /* Products */,
+				927DD5959904219049A60E2E /* Pods */,
+				20E19458BFA6C8A617922123 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9AC2BC2625652CE800402379 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AC2BC2525652CE800402379 /* Plant-AR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AC2BC2725652CE800402379 /* Plant-AR */ = {
+			isa = PBXGroup;
+			children = (
+				9AC2BC2825652CE800402379 /* AppDelegate.swift */,
+				9A3AAC3725D6CE5900BF72D9 /* Models */,
+				9A0D3B2B25821AC700026D88 /* Views */,
+				9AC2BC3B25652E2300402379 /* 3D-Models */,
+				9AC2BC2E25652CEA00402379 /* Assets.xcassets */,
+				9AC2BC3325652CEA00402379 /* Info.plist */,
+				9A9056BD25CC45E00085A1DA /* Launch Screen.storyboard */,
+				9AC2BC3025652CEA00402379 /* Preview Content */,
+			);
+			path = "Plant-AR";
+			sourceTree = "<group>";
+		};
+		9AC2BC3025652CEA00402379 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9AC2BC3125652CEA00402379 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9AC2BC3B25652E2300402379 /* 3D-Models */ = {
+			isa = PBXGroup;
+			children = (
+				9AF54ABB2625AF7D001AC0BF /* Sansevieria.usdz */,
+			);
+			path = "3D-Models";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AC2BC2425652CE800402379 /* Plant-AR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AC2BC3625652CEA00402379 /* Build configuration list for PBXNativeTarget "Plant-AR" */;
+			buildPhases = (
+				D8871C515BA7EC48C094791E /* [CP] Check Pods Manifest.lock */,
+				9AC2BC2125652CE800402379 /* Sources */,
+				9AC2BC2225652CE800402379 /* Frameworks */,
+				9AC2BC2325652CE800402379 /* Resources */,
+				9AA56237260B3EC70064EB67 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Plant-AR";
+			packageProductDependencies = (
+				9A23744926020C750057D96E /* FocusEntity */,
+			);
+			productName = "Plant-AR";
+			productReference = 9AC2BC2525652CE800402379 /* Plant-AR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AC2BC1D25652CE800402379 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					9AC2BC2425652CE800402379 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 9AC2BC2025652CE800402379 /* Build configuration list for PBXProject "Plant-AR" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AC2BC1C25652CE800402379;
+			packageReferences = (
+				9A23744826020C750057D96E /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
+			productRefGroup = 9AC2BC2625652CE800402379 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AC2BC2425652CE800402379 /* Plant-AR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AC2BC2325652CE800402379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9056BE25CC45E00085A1DA /* Launch Screen.storyboard in Resources */,
+				9AC2BC3225652CEA00402379 /* Preview Assets.xcassets in Resources */,
+				9AF54ABC2625AF7D001AC0BF /* Sansevieria.usdz in Resources */,
+				9AC2BC2F25652CEA00402379 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9AA56237260B3EC70064EB67 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint\n";
+		};
+		D8871C515BA7EC48C094791E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Plant-AR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AC2BC2125652CE800402379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0D3B2D25821B0200026D88 /* InsertView.swift in Sources */,
+				9AC2BC40256557D300402379 /* Model.swift in Sources */,
+				9A90569825B822EA0085A1DA /* FavoritesView.swift in Sources */,
+				9A93531D25B7347C0060D396 /* MenuView.swift in Sources */,
+				9AFFAC9126130E5B0067ED78 /* ModelLoader.swift in Sources */,
+				9A93532025B73BBB0060D396 /* PlantsView.swift in Sources */,
+				9A0D3B392582255800026D88 /* Favorites.swift in Sources */,
+				9AA1C1F32611EF2B0080EE0E /* ContextMenuView.swift in Sources */,
+				9AAB10D725765CC20076A32C /* ARViewModel.swift in Sources */,
+				9AC2BC2B25652CE800402379 /* ContentView.swift in Sources */,
+				9A0D3B362582229400026D88 /* ARViewContainer.swift in Sources */,
+				9A0D3B2925821A7400026D88 /* SnapshotButtonView.swift in Sources */,
+				9A0D3B33258221C500026D88 /* CustomARView.swift in Sources */,
+				9AD109292611B8500045DF12 /* MenuButton.swift in Sources */,
+				9AD1092C2611B88F0045DF12 /* MenuBar.swift in Sources */,
+				9AC2BC2925652CE800402379 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9AC2BC3425652CEA00402379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AC2BC3525652CEA00402379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AC2BC3725652CEA00402379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1419CD8DA531E491D88C7CF9 /* Pods-Plant-AR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Plant-AR/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Plant-AR/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.mathema.Plant.AR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AC2BC3825652CEA00402379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B79F88C3125D1A399923E66 /* Pods-Plant-AR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Plant-AR/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Plant-AR/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.mathema.Plant.AR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AC2BC2025652CE800402379 /* Build configuration list for PBXProject "Plant-AR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC2BC3425652CEA00402379 /* Debug */,
+				9AC2BC3525652CEA00402379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AC2BC3625652CEA00402379 /* Build configuration list for PBXNativeTarget "Plant-AR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC2BC3725652CEA00402379 /* Debug */,
+				9AC2BC3825652CEA00402379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9A23744826020C750057D96E /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9A23744926020C750057D96E /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A23744826020C750057D96E /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9AC2BC1D25652CE800402379 /* Project object */;
+}
