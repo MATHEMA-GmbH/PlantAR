@@ -18,9 +18,9 @@ The app served primarily as the basis for a bachelor thesis. The thesis was abou
 To build the app, a physical device must be connected to Xcode. Because of the AR scene, the app can not be built in the simulator.
 
 ## Screenshots
-![PlantAR](./img/screenshot1.jpg)
-![Menu](./img/screenshot2.jpg)
-![add to favorites](./img/screenshot3.jpg)
+![PlantAR](./img/screenshot1.PNG)
+![Menu](./img/screenshot2.PNG)
+![add to favorites](./img/screenshot3.PNG)
 
 ## License
 [GNU GPLv 3.0](https://choosealicense.com/licenses/gpl-3.0/)
