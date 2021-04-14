@@ -18,9 +18,12 @@ The app served primarily as the basis for a bachelor thesis. The thesis was abou
 To build the app, a physical device must be connected to Xcode. Because of the AR scene, the app can not be built in the simulator.
 
 ## Screenshots
-![PlantAR](./img/screenshot1.PNG)
-![Menu](./img/screenshot2.PNG)
-![add to favorites](./img/screenshot3.PNG)
+<br />
+<p align="center">
+  <img src="./img/screenshot1.PNG" alt="PlantAR" width="600">
+  <img src="./img/screenshot2.PNG" alt="Menu" width="600">
+  <img src="./img/screenshot3.PNG" alt="add to favorites" width="600">
+</p>
 
 ## License
 [GNU GPLv 3.0](https://choosealicense.com/licenses/gpl-3.0/)
