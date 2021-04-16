@@ -19,6 +19,7 @@ struct ContentView: View {
     @State private var isInsertViewShown = false
     @State private var selectedModel: Model?
     @State private var placedModel: Model?
+    @AppStorage("showIntro") var showIntro: Bool = true
     var loader = ModelLoader()
 
     var body: some View {
@@ -42,7 +43,10 @@ struct ContentView: View {
             }
             .navigationBarTitle("")
             .navigationBarHidden(true)
-        }.navigationViewStyle(StackNavigationViewStyle())
+        }.sheet(isPresented: $showIntro, content: {
+            IntroView(showIntro: $showIntro)
+        })
+        .navigationViewStyle(StackNavigationViewStyle())
         .environmentObject(favorites)
 
     }

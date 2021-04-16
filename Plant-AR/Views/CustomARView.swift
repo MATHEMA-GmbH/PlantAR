@@ -18,6 +18,7 @@ class CustomARView: ARView {
 
     required init(frame frameRect: CGRect) {
         super.init(frame: frameRect)
+        self.addCoaching()
         self.setupARView()
         self.focusEntity = FocusEntity(on: self, style: .classic(color: UIColor(Color("focus-square"))))
     }
@@ -51,5 +52,21 @@ extension CustomARView: FocusEntityDelegate {
     }
     func toInitializingState() {
         print("initializing")
+    }
+}
+
+extension CustomARView: ARCoachingOverlayViewDelegate {
+
+    func addCoaching() {
+        let coachingOverlay = ARCoachingOverlayView()
+        coachingOverlay.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        coachingOverlay.goal = .horizontalPlane
+        coachingOverlay.session = self.session
+        coachingOverlay.delegate = self
+        self.addSubview(coachingOverlay)
+    }
+
+    public func coachingOverlayViewDidDeactivate(_ coachingOverlayView: ARCoachingOverlayView) {
+        coachingOverlayView.activatesAutomatically = false
     }
 }
