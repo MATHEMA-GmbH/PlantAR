@@ -13,9 +13,7 @@ struct FavoritesView: View {
     @Binding var selectedModel: Model?
     @EnvironmentObject var favorites: Favorites
     var models: [Model]
-
     var body: some View {
-
         NavigationView {
             ScrollView(showsIndicators: false) {
                 ScrollView(.horizontal, showsIndicators: false) {

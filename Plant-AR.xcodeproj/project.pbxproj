@@ -18,6 +18,7 @@
 		9A9056BE25CC45E00085A1DA /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9056BD25CC45E00085A1DA /* Launch Screen.storyboard */; };
 		9A93531D25B7347C0060D396 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A93531C25B7347C0060D396 /* MenuView.swift */; };
 		9A93532025B73BBB0060D396 /* PlantsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A93531F25B73BBB0060D396 /* PlantsView.swift */; };
+		9A9BD8C42629C12800D6F578 /* SnapshotSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9BD8C32629C12800D6F578 /* SnapshotSaver.swift */; };
 		9AA1C1F32611EF2B0080EE0E /* ContextMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA1C1F22611EF2B0080EE0E /* ContextMenuView.swift */; };
 		9AAB10D725765CC20076A32C /* ARViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAB10D625765CC20076A32C /* ARViewModel.swift */; };
 		9AC2BC2925652CE800402379 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC2BC2825652CE800402379 /* AppDelegate.swift */; };
@@ -45,6 +46,7 @@
 		9A9056BD25CC45E00085A1DA /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		9A93531C25B7347C0060D396 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		9A93531F25B73BBB0060D396 /* PlantsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantsView.swift; sourceTree = "<group>"; };
+		9A9BD8C32629C12800D6F578 /* SnapshotSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotSaver.swift; sourceTree = "<group>"; };
 		9AA1C1F22611EF2B0080EE0E /* ContextMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuView.swift; sourceTree = "<group>"; };
 		9AAB10D625765CC20076A32C /* ARViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewModel.swift; sourceTree = "<group>"; };
 		9AC2BC2525652CE800402379 /* Plant-AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plant-AR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +99,7 @@
 				9AC2BC2A25652CE800402379 /* ContentView.swift */,
 				9AA1C1EF2611BBE70080EE0E /* MenuView */,
 				9A0D3B2825821A7400026D88 /* SnapshotButtonView.swift */,
+				9A9BD8C32629C12800D6F578 /* SnapshotSaver.swift */,
 				9A0D3B352582229400026D88 /* ARViewContainer.swift */,
 				9A0D3B32258221C500026D88 /* CustomARView.swift */,
 				9A5C3A4F2629BCFB006C8B0D /* IntroView.swift */,
@@ -300,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A0D3B2D25821B0200026D88 /* InsertView.swift in Sources */,
+				9A9BD8C42629C12800D6F578 /* SnapshotSaver.swift in Sources */,
 				9AC2BC40256557D300402379 /* Model.swift in Sources */,
 				9A90569825B822EA0085A1DA /* FavoritesView.swift in Sources */,
 				9A93531D25B7347C0060D396 /* MenuView.swift in Sources */,
@@ -444,10 +448,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"Plant-AR/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = VCW7387DVR;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Plant-AR/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -456,7 +460,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.mathema.Plant.AR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Wildcard Development (Enterprise)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -468,10 +472,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"Plant-AR/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = VCW7387DVR;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Plant-AR/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -480,7 +484,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.mathema.Plant.AR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Wildcard Development (Enterprise)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

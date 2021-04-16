@@ -13,7 +13,6 @@ class Model {
     var modelName: String
     var image: UIImage
     var modelEntity: ModelEntity?
-
     private var cancellable: AnyCancellable?
 
     init(modelName: String) {

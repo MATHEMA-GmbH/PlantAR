@@ -13,7 +13,6 @@ import ARKit
 import Combine
 
 class CustomARView: ARView {
-
     var focusEntity: FocusEntity?
 
     required init(frame frameRect: CGRect) {

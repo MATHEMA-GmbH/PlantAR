@@ -14,7 +14,6 @@ struct MenuBar: View {
     @Binding var selectedModel: Model?
     @EnvironmentObject var favorites: Favorites
     var models: [Model]
-
     var body: some View {
         HStack {
             Spacer()
