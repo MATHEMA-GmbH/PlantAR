@@ -10,6 +10,7 @@ import RealityKit
 import Combine
 
 class Model {
+
     var modelName: String
     var image: UIImage
     var modelEntity: ModelEntity?

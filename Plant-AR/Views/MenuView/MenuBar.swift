@@ -8,12 +8,14 @@
 import SwiftUI
 
 struct MenuBar: View {
+
     @Binding var showFavorites: Bool
     @Binding var showBrowse: Bool
     @Binding var isPlacementEnabled: Bool
     @Binding var selectedModel: Model?
     @EnvironmentObject var favorites: Favorites
     var models: [Model]
+
     var body: some View {
         HStack {
             Spacer()

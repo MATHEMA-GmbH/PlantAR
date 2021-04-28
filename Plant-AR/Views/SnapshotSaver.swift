@@ -2,7 +2,7 @@
 //  SnapshotSaver.swift
 //  Plant-AR
 //
-//  Created by Denise Fritsch on 16.04.21.
+//  Created by Denise Fritsch on 20.04.21.
 //
 
 import Foundation
@@ -10,6 +10,7 @@ import UIKit
 import Photos
 
 class SnapshotSaver: NSObject, ObservableObject {
+
     @Published var isPresented = false
     @Published var title: String = ""
     @Published var message: String = ""

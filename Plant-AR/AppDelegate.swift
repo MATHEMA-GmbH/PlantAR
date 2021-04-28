@@ -18,7 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
         // Create the SwiftUI view that provides the window contents.
-        let contentView = ContentView()
+        let contentView = ViewRouter()
+        self.setupAppearance()
 
         // Use a UIHostingController as window root view controller.
         let window = UIWindow(frame: UIScreen.main.bounds)
@@ -56,5 +57,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         /* Restart any tasks that were paused (or not yet started)
          while the application was inactive. If the application was previously
          in the background, optionally refresh the user interface. */
+    }
+    func setupAppearance() {
+        UIPageControl.appearance().currentPageIndicatorTintColor = UIColor(Color("gras-green"))
+        UIPageControl.appearance().pageIndicatorTintColor = UIColor.black.withAlphaComponent(0.2)
     }
 }

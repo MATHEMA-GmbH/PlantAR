@@ -8,8 +8,10 @@
 import SwiftUI
 
 struct MenuButton: View {
+
     let symbol: String
     let action: () -> Void
+
     var body: some View {
         Button(action: {
             self.action()

@@ -11,6 +11,7 @@ import RealityKit
 import ARKit
 
 struct ARViewContainer: UIViewRepresentable {
+
     @Binding var chosenModel: Model?
 
     func makeUIView(context: UIViewRepresentableContext<ARViewContainer>) -> ARView {

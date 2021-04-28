@@ -9,6 +9,7 @@ import Foundation
 import RealityKit
 
 final class ARViewModel: ObservableObject {
+
     static let shared = ARViewModel()
     var arView: ARView!
 

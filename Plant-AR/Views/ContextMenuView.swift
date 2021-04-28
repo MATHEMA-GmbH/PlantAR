@@ -8,8 +8,10 @@
 import SwiftUI
 
 struct ContextMenuView: View {
+
     @EnvironmentObject var favorites: Favorites
     var plant: Model
+
     var body: some View {
         if self.favorites.contains(plant) {
             Button(action: {self.favorites.remove(plant)

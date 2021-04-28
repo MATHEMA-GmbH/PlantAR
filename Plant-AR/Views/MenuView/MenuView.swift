@@ -8,12 +8,14 @@
 import SwiftUI
 
 struct MenuView: View {
+
     @Binding var showFavorites: Bool
     @Binding var showBrowse: Bool
     @Binding var isInsertViewShown: Bool
     @Binding var selectedModel: Model?
     @EnvironmentObject var favorites: Favorites
     var models: [Model]
+
     var body: some View {
         VStack {
             Spacer()

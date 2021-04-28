@@ -11,6 +11,7 @@ import ARKit
 import FocusEntity
 
 struct ContentView: View {
+
     @EnvironmentObject var arViewModel: ARViewModel
     @ObservedObject var favorites = Favorites()
     @State private var showFavorites = false
@@ -18,8 +19,8 @@ struct ContentView: View {
     @State private var isInsertViewShown = false
     @State private var selectedModel: Model?
     @State private var placedModel: Model?
-    @AppStorage("showIntro") var showIntro: Bool = true
     var loader = ModelLoader()
+
     var body: some View {
         NavigationView {
             ZStack(alignment: .bottom) {
@@ -38,12 +39,11 @@ struct ContentView: View {
                              models: loader.loadModels())
                 }
                 SnapshotButtonView()
+                HelpButtonView()
             }
             .navigationBarTitle("")
             .navigationBarHidden(true)
-        }.sheet(isPresented: $showIntro, content: {
-            IntroView(showIntro: $showIntro)
-        })
+        }
         .navigationViewStyle(StackNavigationViewStyle())
         .environmentObject(favorites)
 

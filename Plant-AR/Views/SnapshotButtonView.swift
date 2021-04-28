@@ -7,10 +7,13 @@
 
 import Foundation
 import SwiftUI
+import Photos
 
 struct SnapshotButtonView: View {
+
     @EnvironmentObject var arViewModel: ARViewModel
     @ObservedObject var snapshotSaver = SnapshotSaver()
+
     var body: some View {
         VStack {
             Spacer()
@@ -61,5 +64,6 @@ struct SnapshotButtonView: View {
             let compressedImage = UIImage(data: (image?.pngData())!)
             snapshotSaver.saveSnapshot(compressedImage: compressedImage!)
         }
+
     }
 }

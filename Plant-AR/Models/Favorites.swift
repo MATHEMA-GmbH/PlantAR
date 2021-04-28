@@ -9,6 +9,7 @@ import Foundation
 import SwiftUI
 
 class Favorites: ObservableObject {
+
     @Published var plants: Set<String>
     let defaults = UserDefaults.standard
 

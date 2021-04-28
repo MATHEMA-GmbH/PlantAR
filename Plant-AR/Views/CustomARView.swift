@@ -13,7 +13,9 @@ import ARKit
 import Combine
 
 class CustomARView: ARView {
+
     var focusEntity: FocusEntity?
+    @AppStorage("showOnboarding") var showOnboarding = OnboardingManager.shared.showOnboarding
 
     required init(frame frameRect: CGRect) {
         super.init(frame: frameRect)
@@ -41,7 +43,7 @@ class CustomARView: ARView {
             // person occlusion
             config.frameSemantics = .personSegmentationWithDepth
         }
-        self.session.run(config, options: [])
+            self.session.run(config, options: [])
     }
 }
 
