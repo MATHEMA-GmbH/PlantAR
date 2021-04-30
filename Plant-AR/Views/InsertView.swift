@@ -9,9 +9,11 @@ import Foundation
 import SwiftUI
 
 struct InsertView: View {
+
     @Binding var isInsertViewShown: Bool
     @Binding var selectedModel: Model?
     @Binding var placedModel: Model?
+
     var body: some View {
         HStack {
             // Cancel Button

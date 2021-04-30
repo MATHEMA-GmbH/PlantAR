@@ -15,9 +15,11 @@ import Combine
 class CustomARView: ARView {
 
     var focusEntity: FocusEntity?
+    @AppStorage("showOnboarding") var showOnboarding = OnboardingManager.shared.showOnboarding
 
     required init(frame frameRect: CGRect) {
         super.init(frame: frameRect)
+        self.addCoaching()
         self.setupARView()
         self.focusEntity = FocusEntity(on: self, style: .classic(color: UIColor(Color("focus-square"))))
     }
@@ -41,7 +43,7 @@ class CustomARView: ARView {
             // person occlusion
             config.frameSemantics = .personSegmentationWithDepth
         }
-        self.session.run(config, options: [])
+            self.session.run(config, options: [])
     }
 }
 
@@ -51,5 +53,21 @@ extension CustomARView: FocusEntityDelegate {
     }
     func toInitializingState() {
         print("initializing")
+    }
+}
+
+extension CustomARView: ARCoachingOverlayViewDelegate {
+
+    func addCoaching() {
+        let coachingOverlay = ARCoachingOverlayView()
+        coachingOverlay.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        coachingOverlay.goal = .horizontalPlane
+        coachingOverlay.session = self.session
+        coachingOverlay.delegate = self
+        self.addSubview(coachingOverlay)
+    }
+
+    public func coachingOverlayViewDidDeactivate(_ coachingOverlayView: ARCoachingOverlayView) {
+        coachingOverlayView.activatesAutomatically = false
     }
 }

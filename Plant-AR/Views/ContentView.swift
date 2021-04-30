@@ -39,10 +39,12 @@ struct ContentView: View {
                              models: loader.loadModels())
                 }
                 SnapshotButtonView()
+                HelpButtonView()
             }
             .navigationBarTitle("")
             .navigationBarHidden(true)
-        }.navigationViewStyle(StackNavigationViewStyle())
+        }
+        .navigationViewStyle(StackNavigationViewStyle())
         .environmentObject(favorites)
 
     }
