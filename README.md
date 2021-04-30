@@ -29,13 +29,13 @@ You can download the app from the App Store.
 </p>
 <a href="https://apps.apple.com/us/app/plant-ar/id1558987251?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 150px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/en-us?size=250x83&amp;releaseDate=1619654400&h=ac1e9bc0741ed2f008a12d768bf26a70" alt="Download on the App Store" style="border-radius: 13px; width: 150px; height: 83px;"></a>
 <p>
-The version in the App Store contains more 3D models. For licensing reasons these models cannot be made available in this open source project. Thats why this project includes only a single model, which is free to use.
+The version in the App Store contains more 3D models. For licensing reasons these models cannot be made available in this open source project. Thats why this project includes only a single model, which is free to use. For a new release the missing models will be added during the upload process.
 </p>
 <br />
 
 
 ## Usage
-To build the app, a physical device must be connected to Xcode. Because of the AR scene, the app can not be built in the simulator.
+To build the app, a physical device must be connected to Xcode. Due to the AR scene, the app cannot be run on the simulator.
 
 ## Screenshots
 <br />
