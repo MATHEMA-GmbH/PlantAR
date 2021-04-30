@@ -1,6 +1,6 @@
 # PlantAR
-<p align="center">
-<a href="https://apps.apple.com/us/app/plant-ar/id1558987251?itscg=30200&amp;itsct=apps_box_appicon" style="width: 150px; height: 150px; border-radius: 22%; overflow: hidden; display: inline-block; vertical-align: middle;"><img src="./img/plant-ar.png" alt="Plant.AR" style="width: 150px; height: 150px; border-radius: 22%; overflow: hidden; display: inline-block; vertical-align: middle;"></a>
+<p>
+<a href="https://apps.apple.com/us/app/plant-ar/id1558987251?itscg=30200&amp;itsct=apps_box_appicon" style="width: 80px; height: 80px; border-radius: 22%; overflow: hidden; display: inline-block; vertical-align: middle;"><img src="./img/plant-ar.png" alt="Plant.AR" style="border-radius: 22%; overflow: hidden; display: inline-block; vertical-align: middle;" width="150"></a>
 </p>
 <br />
 
@@ -27,7 +27,7 @@ The app served primarily as the basis for a bachelor thesis. The thesis was abou
 <p>
 You can download the app from the App Store. 
 </p>
-<a href="https://apps.apple.com/us/app/plant-ar/id1558987251?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 150px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/en-us?size=250x83&amp;releaseDate=1619654400&h=ac1e9bc0741ed2f008a12d768bf26a70" alt="Download on the App Store" style="border-radius: 13px; width: 150px; height: 83px;"></a>
+<a href="https://apps.apple.com/us/app/plant-ar/id1558987251?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px;" width="150"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/en-us?size=250x83&amp;releaseDate=1619654400&h=ac1e9bc0741ed2f008a12d768bf26a70" alt="Download on the App Store" style="border-radius: 13px;" width="150"></a>
 <p>
 The version in the App Store contains more 3D models. For licensing reasons these models cannot be made available in this open source project. Thats why this project includes only a single model, which is free to use. For a new release the missing models will be added during the upload process.
 </p>
@@ -49,9 +49,9 @@ To build the app, a physical device must be connected to Xcode. Due to the AR sc
 ## 3D-Model
 The 3D-Model of the Sansevieria plant was downloaded from Sketchfab.
 <br />
-<p align="center">
+<p>
 
-<img src="./img/Sansevieria.jpg" alt="3D-Model-Sansevieria" style="border-radius: 20px; width: 200px;">
+<img src="./img/Sansevieria.jpg" alt="3D-Model-Sansevieria" style="border-radius: 20px" width = "200">
 
 <center>
 
