@@ -42,12 +42,12 @@ struct FavoritesView: View {
                 .padding()
                 Spacer()
             }
-            .navigationBarTitle(Text("Favoriten"), displayMode: .large)
+            .navigationBarTitle(Text("favorites_title"), displayMode: .large)
             .navigationBarItems(trailing:
                                     Button(action: {
                                         self.showFavorites.toggle()
                                     }, label: {
-                                        Text("Fertig").bold()
+                                        Text("done").bold()
                                     }))
         }
     }

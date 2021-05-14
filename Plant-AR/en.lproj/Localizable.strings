@@ -1,0 +1,42 @@
+/*
+  Localizable.strings
+  Plant-AR
+
+  Created by Denise Fritsch on 07.05.21.
+
+*/
+
+// ONBOARDING
+"welcome" = "Welcome to PlantAR!";
+"onboarding_plant_select_1(%@)" = "Open the menu (%@), to choose a plant.";
+"onboarding_plant_select_2" = "Once a plant has been selected, it can be placed. The placement can be confirmed or canceled with the following buttons:";
+"confirm" = "confirm";
+"cancel " = "cancel ";
+"onboarding_placement" = "To place a plant, the square must be closed.";
+"onboarding_favorites_1" = "Add a plant to your favorites by tapping it in the menu for a few seconds.";
+"onboarding_favorites_2 (%@)." = "Then the plant also appears in the favorites menu (%@).";
+"onboarding_snapshot_1" = "You can take photos of your placed plants by pressing the following button:";
+"onboarding_snapshot_2" = "The photos will be saved in your album.";
+
+// NAVIGATION
+"done" = "Done";
+"favorites_title" = "Favorites";
+"menu_title" = "Menu";
+
+// FAVORITES
+"context_menu_1" = "Remove from favorites?";
+"context_menu_2" = "Save as a favorite?";
+
+//SNAPSHOT
+"access_denied" = "Access denied";
+"snapshot_saver_1" = "To be able to save photos, go to the system settings and allow access to the photo library.";
+"snapshot_saver_2" = "Allow access to the photo library.";
+"snapshot_error_1" = "Error!";
+"snapshot_error_2" = "Your snapshot could not be saved";
+"snapshot_successful_1" = "Plantastic!";
+"snapshot_successful_2" = "Your snapshot was saved successfully!";
+
+// CAMERA ACCESS
+"camera_access_denied_1" = "Camera access denied";
+"camera_access_denied_2" = "PlantAR cannot display your surroundings. Please activate camera access in your device settings.";
+"camera_access_denied_3" = "Got to settings";

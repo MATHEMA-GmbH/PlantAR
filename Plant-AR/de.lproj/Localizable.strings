@@ -1,0 +1,42 @@
+/* 
+  Localizable.strings
+  Plant-AR
+
+  Created by Denise Fritsch on 07.05.21.
+  
+*/
+
+// ONBOARDING
+"welcome" = "Willkommen bei PlantAR!";
+"onboarding_plant_select_1(%@)" = "Öffne das Auswahlmenü (%@), um dort eine Pflanze auszuwählen.";
+"onboarding_plant_select_2" = "Sobald eine Pflanze ausgewählt wurde, kann diese platziert werden. Mit folgenden Buttons kann die Platzierung bestätigt oder abgebrochen werden.";
+"confirm" = "bestätigen";
+"cancel " = "abbrechen";
+"onboarding_placement" = "Um eine Pflanze platzieren zu können, muss das Quadrat geschlossen sein.";
+"onboarding_favorites_1" = "Füge eine Pflanze zu deinen Favoriten hinzu, indem du sie im Menü für wenige Sekunden antippst.";
+"onboarding_favorites_2 (%@)." = "Danach erscheint die Pflanze zusätzlich im Favoriten-Menü (%@).";
+"onboarding_snapshot_1" = "Du kannst deine platzierten Pflanzen fotografieren, indem du folgenden Button drückst:";
+"onboarding_snapshot_2" = "Die Fotos findest du anschließend in deinem Album.";
+
+// NAVIGATION
+"done" = "Fertig";
+"favorites_title" = "Favoriten";
+"menu_title" = "Menü";
+
+// FAVORITES
+"context_menu_1" = "Lieblingspflanze entfernen?";
+"context_menu_2" = "Als Lieblingspflanze speichern?";
+
+//SNAPSHOT
+"access_denied" = "Zugriff nicht erlaubt";
+"snapshot_saver_1" = "Um Fotos speichern zu können, gehe in die Systemeinstellungen und erlaube den Zugriff auf die Fotobibliothek.";
+"snapshot_saver_2" = "Zugriff auf Fotobibliothek erlauben";
+"snapshot_error_1" = "Fehler!";
+"snapshot_error_2" = "Dein Snapshot konnte nicht gespeichert werden";
+"snapshot_successful_1" = "Pflanztastisch!";
+"snapshot_successful_2" = "Dein Snapshot wurde erfolgreich gespeichert!";
+
+// CAMERA ACCESS
+"camera_access_denied_1" = "Kamera-Zugriff nicht erlaubt";
+"camera_access_denied_2" = "PlantAR kann deine Umgebung nicht anzeigen. Bitte aktiviere den Kamera-Zugriff in deinen Geräteeinstellungen.";
+"camera_access_denied_3" = "Öffne Einstellungen";

@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  Plant-AR
+
+  Created by Denise Fritsch on 11.05.21.
+  
+*/
+"NSCameraUsageDescription" = "Sie zeigt dir wo du Pflanzen platzieren kannst";
+"NSPhotoLibraryAddUsageDescription" = "Zugriff auf die Fotobibliothek wird benötigt, um Fotos zu speichern.";

@@ -24,10 +24,8 @@
 	<true/>
 	<key>NSCameraUsageDescription</key>
 	<string>Access required for AR experience</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Acces required to save snapshots</string>
-	<key>Privacy — Photo Library Additions Usage Description</key>
-	<string>Access required to save selfies</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Access required to save snapshots</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>

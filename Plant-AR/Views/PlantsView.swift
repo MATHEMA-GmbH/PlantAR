@@ -41,12 +41,15 @@ struct PlantsView: View {
                 .padding()
                 Spacer()
             }
-            .navigationBarTitle(Text("Menü"), displayMode: .large)
+            .onAppear {
+                AppReviewRequest.shared.requestReview()
+            }
+            .navigationBarTitle(Text("menu_title"), displayMode: .large)
             .navigationBarItems(trailing:
                                     Button(action: {
                                         self.showPlants.toggle()
                                     }, label: {
-                                        Text("Fertig").bold()
+                                        Text("done").bold()
                                     }))
         }
     }

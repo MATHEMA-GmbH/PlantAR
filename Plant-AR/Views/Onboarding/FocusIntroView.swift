@@ -10,7 +10,7 @@ import SwiftUI
 struct FocusIntroView: View {
     var body: some View {
             VStack(alignment: .center, spacing: 30) {
-                Text("Um eine Pflanze platzieren zu können, muss das Quadrat geschlossen sein.")
+                Text("onboarding_placement")
                     .font(.title3)
                     .multilineTextAlignment(.center)
                     .padding([.top, .horizontal])

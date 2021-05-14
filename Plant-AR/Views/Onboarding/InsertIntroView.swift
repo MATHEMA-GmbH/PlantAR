@@ -10,11 +10,11 @@ import SwiftUI
 struct InsertIntroView: View {
     var body: some View {
         VStack(alignment: .center) {
-            Text("Sobald eine Pflanze ausgewählt wurde, kann diese platziert werden. Mit folgenden Buttons kann die Platzierung bestätigt oder abgebrochen werden.")
+            Text("onboarding_plant_select_2")
                 .multilineTextAlignment(.center)
                 .padding([.top, .horizontal])
                 Label {
-                    Text("bestätigen")
+                    Text("confirm")
                 } icon: {
                     Image("insert-checkmark")
                         .resizable()
@@ -22,7 +22,7 @@ struct InsertIntroView: View {
                         .aspectRatio(1/1, contentMode: .fit)
                 }
             Label {
-                Text("abbrechen")
+                Text("cancel ")
             } icon: {
                 Image("insert-xmark")
                     .resizable()
