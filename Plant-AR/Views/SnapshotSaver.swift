@@ -16,21 +16,21 @@ class SnapshotSaver: NSObject, ObservableObject {
     @Published var message: String = ""
 
     func saveSnapshot(compressedImage: UIImage) {
-        PHPhotoLibrary.requestAuthorization(for: .readWrite) { status in
+        PHPhotoLibrary.requestAuthorization(for: .addOnly) { status in
             switch status {
             case .authorized:
                 UIImageWriteToSavedPhotosAlbum(
                     compressedImage, self, #selector(self.saveError), nil)
             case .denied:
-                self.title = "Zugriff nicht erlaubt"
+                self.title = NSLocalizedString("access_denied", comment: "")
                 self.message =
-                    "Um Fotos speichern zu können, gehe in die Systemeinstellungen und erlaube den Zugriff auf alle Fotos"
+                   NSLocalizedString("snapshot_saver_1", comment: "")
                 self.isPresented = true
                 print("access denied")
             case .limited:
-                self.title = "Zugriff auf alle Fotos erlauben"
+                self.title = NSLocalizedString("snapshot_saver_2", comment: "")
                 self.message =
-                    "Um Fotos speichern zu können, gehe in die Systemeinstellungen und erlaube den Zugriff auf alle Fotos"
+                    NSLocalizedString("snapshot_saver_1", comment: "")
                 self.isPresented = true
                 print("limited access only")
             case .notDetermined:
@@ -45,14 +45,14 @@ class SnapshotSaver: NSObject, ObservableObject {
 
     @objc func saveError(_ image: UIImage, didFinishSavingWithError error: Error?, contextInfo: UnsafeRawPointer) {
         if error != nil {
-            title = "Fehler!"
-            message = "Dein Snapshot konnte nicht gespeichert werden"
+            title = NSLocalizedString("snapshot_error_1", comment: "")
+            message = NSLocalizedString("snapshot_error_2", comment: "")
             isPresented = true
             print("saving the snapshot failed")
 
         } else {
-            title = "Pflanztastisch!"
-            message = "Dein Snapshot wurde erfolgreich gespeichert!"
+            title = NSLocalizedString("snapshot_successful_1", comment: "")
+            message = NSLocalizedString("snapshot_successful_2", comment: "")
             isPresented = true
             print("snapshot successfully saved")
         }

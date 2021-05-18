@@ -14,14 +14,14 @@ struct SnapshotIntroView: View {
 
     var body: some View {
         VStack(alignment: .center) {
-            Text("Du kannst deine platzierten Pflanzen fotografieren, indem du folgenden Button drückst:")
+            Text("onboarding_snapshot_1")
                 .multilineTextAlignment(.center)
                 .padding([.top, .horizontal])
             Image("snapshot-button")
                 .resizable()
                 .frame(maxWidth: 100, maxHeight: 100)
                 .aspectRatio(1/1, contentMode: .fill)
-            Text("Die Fotos findest du anschließend in deinem Album.")
+            Text("onboarding_snapshot_2")
                 .multilineTextAlignment(.center)
                 .padding(.horizontal)
             Button(action: {

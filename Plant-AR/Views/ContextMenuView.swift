@@ -16,7 +16,7 @@ struct ContextMenuView: View {
         if self.favorites.contains(plant) {
             Button(action: {self.favorites.remove(plant)
             }, label: {
-                Text("Lieblingspflanze entfernen?")
+                Text("context_menu_1")
                 Image(systemName: "heart.slash.fill")
                     .foregroundColor(.red)
             })
@@ -24,7 +24,7 @@ struct ContextMenuView: View {
             Button(action: {self.favorites.add(plant)
             }, label: {
                 HStack {
-                    Text("Als Lieblingspflanze speichern?")
+                    Text("context_menu_2")
                     Image(systemName: "heart.fill")
                         .foregroundColor(.white)
                 }

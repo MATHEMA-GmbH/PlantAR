@@ -10,13 +10,13 @@ import SwiftUI
 struct MenuIntroView: View {
     var body: some View {
         VStack(alignment: .center) {
-            Text("Wilkommen bei PlantAR!")
+            Text("welcome")
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 .multilineTextAlignment(.center)
                 .foregroundColor(Color("gras-green"))
                 .padding()
-            Text("Öffne das Auswahlmenü (\(Image(systemName: "scale.3d"))), um dort eine Pflanze auszuwählen.")
+            Text("onboarding_plant_select_1(\(Image(systemName: "scale.3d")))")
                 .font(.title3)
                 .multilineTextAlignment(.center)
                 .padding(.horizontal)

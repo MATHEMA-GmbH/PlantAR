@@ -15,12 +15,12 @@ struct CameraAccessDeniedView: View {
                 .aspectRatio(1/1, contentMode: .fit)
                 .frame(maxWidth: 40, maxHeight: 40)
                 .padding()
-            Text("Kamera-Zugriff nicht erlaubt")
+            Text("camera_access_denied_1")
                 .foregroundColor(Color("gras-green"))
                 .font(.title)
                 .fontWeight(.bold)
                 .padding()
-            Text("PlantAR kann deine Umgebung nicht anzeigen. Bitte aktiviere den Kamera-Zugriff in deinen Geräteeinstellungen.")
+            Text("camera_access_denied_2")
                 .multilineTextAlignment(.center)
                 .padding(.horizontal)
             Button(action: {
@@ -31,7 +31,7 @@ struct CameraAccessDeniedView: View {
                     UIApplication.shared.open(settingsUrl, completionHandler: nil)
                 }
             }, label: {
-                Text("Öffne Einstellungen")
+                Text("camera_access_denied_3")
                     .padding()
                     .frame(maxWidth: 300, maxHeight: 50)
                     .background(

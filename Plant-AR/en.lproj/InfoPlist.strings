@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  Plant-AR
+
+  Created by Denise Fritsch on 11.05.21.
+  
+*/
+"NSCameraUsageDescription" = "Access required for AR experience";
+"NSPhotoLibraryUsageDescription" = "Access required to save snapshots";
