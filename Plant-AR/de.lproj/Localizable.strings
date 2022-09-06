@@ -26,6 +26,7 @@
 // FAVORITES
 "context_menu_1" = "Lieblingspflanze entfernen?";
 "context_menu_2" = "Als Lieblingspflanze speichern?";
+"context_menu_3" = "Info";
 
 //SNAPSHOT
 "access_denied" = "Zugriff nicht erlaubt";

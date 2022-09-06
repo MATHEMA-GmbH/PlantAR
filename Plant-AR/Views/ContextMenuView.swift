@@ -11,6 +11,7 @@ struct ContextMenuView: View {
 
     @EnvironmentObject var favorites: Favorites
     var plant: Model
+    @Binding var showPlantInfo: Bool
 
     var body: some View {
         if self.favorites.contains(plant) {
@@ -30,5 +31,14 @@ struct ContextMenuView: View {
                 }
             })
         }
+        Button(action: {
+            showPlantInfo = true
+        }, label: {
+            HStack {
+                Text("context_menu_3")
+                Image(systemName: "info.circle")
+                    .foregroundColor(.white)
+            }
+        })
     }
 }

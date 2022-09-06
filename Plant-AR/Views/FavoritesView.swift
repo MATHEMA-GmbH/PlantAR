@@ -13,6 +13,7 @@ struct FavoritesView: View {
     @Binding var isInsertViewShown: Bool
     @Binding var selectedModel: Model?
     @EnvironmentObject var favorites: Favorites
+    @State private var showPlantInfo = false
     var models: [Model]
 
     var body: some View {
@@ -32,7 +33,7 @@ struct FavoritesView: View {
                                     .background(Color.white)
                                     .cornerRadius(12)
                                     .contextMenu {
-                                        ContextMenuView(plant: self.models[index])
+                                        ContextMenuView(plant: self.models[index], showPlantInfo: $showPlantInfo)
                                     }
                             }).buttonStyle(PlainButtonStyle())
                         }
@@ -42,6 +43,7 @@ struct FavoritesView: View {
                 .padding()
                 Spacer()
             }
+            .sheet(isPresented: $showPlantInfo, content: {PlantInfoView(showPlantInfo: $showPlantInfo)})
             .navigationBarTitle(Text("favorites_title"), displayMode: .large)
             .navigationBarItems(trailing:
                                     Button(action: {

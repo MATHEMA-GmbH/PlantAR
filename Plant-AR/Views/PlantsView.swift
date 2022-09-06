@@ -14,6 +14,7 @@ struct PlantsView: View {
     @Binding var selectedModel: Model?
     @EnvironmentObject var favorites: Favorites
     var models: [Model]
+    @State private var showPlantInfo = false
 
     var body: some View {
         NavigationView {
@@ -32,7 +33,7 @@ struct PlantsView: View {
                                 .background(Color.white)
                                 .cornerRadius(12)
                                 .contextMenu {
-                                    ContextMenuView(plant: self.models[index])
+                                    ContextMenuView(plant: self.models[index], showPlantInfo: $showPlantInfo)
                                 }
                         }).buttonStyle(PlainButtonStyle())
                     }
@@ -41,6 +42,7 @@ struct PlantsView: View {
                 .padding()
                 Spacer()
             }
+            .sheet(isPresented: $showPlantInfo, content: {PlantInfoView(showPlantInfo: $showPlantInfo)})
             .onAppear {
                 AppReviewRequest.shared.requestReview()
             }
